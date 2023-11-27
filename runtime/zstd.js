@@ -644,3 +644,7 @@ return function decompress(dat, buf) {
     return cct(bufs, ol);
 }
 }) ()
+
+//Provides: zstd_initialize
+// Alias: caml_zstd_initialize
+var zstd_initialize =  (function () {})

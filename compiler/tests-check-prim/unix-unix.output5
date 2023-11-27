@@ -3,6 +3,7 @@ Missing
 
 From unix.bc:
 caml_alloc_dummy_function
+caml_compression_available
 caml_continuation_use
 caml_drop_continuation
 caml_dynlink_add_primitive
@@ -306,4 +307,7 @@ caml_unix_findclose
 caml_unix_findfirst
 caml_unix_findnext
 caml_unix_startup
+
+From +zstd.js:
+zstd_initialize
 
